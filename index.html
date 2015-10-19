@@ -1,1 +1,22 @@
-<h1>hello world !</h1>
+
+   <!DOCTYPE html>
+<html ng-app="myMoudule"  ng-init="myvar='you'" >
+<head>
+    <title>MyAngApp</title>
+  <script src="script/angular.min.js"></script>
+
+<script type="text/javascript" src="script/AngModle.js"></script>
+    <script src="script/jquery-2.1.4.min.js"></script>
+    </head>
+<body>
+     <div ng-controller="SimpleController" >
+         <ul><li ng-repeat="x in cust">
+             {{x.name}} {{x.last}}
+             </li></ul>
+    
+    </div>
+    <script>
+ 
+    </script>
+</body>
+</html>
